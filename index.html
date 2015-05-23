@@ -2,23 +2,23 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=1024"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <title>CampJS - ESNext quckstart</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>CampJS - Brave new World</title>
 
   <meta name="description"
-    content="ESNext quckstart"/>
-  <meta name="author" content="Nik Butenko"/>
+      content="Brave new World. ESNext edition" />
+  <meta name="author" content="Nik Butenko" />
 
   <link
-    href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
-    rel="stylesheet"/>
+      href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+      rel="stylesheet" />
 
-  <link href="css/impress-demo.css" rel="stylesheet"/>
+  <link href="css/impress-demo.css" rel="stylesheet" />
 
-  <link rel="shortcut icon" href="favicon.png"/>
-  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
   <link rel="stylesheet" href="css/highlight/tomorrow-night-eighties.css">
 </head>
@@ -36,49 +36,298 @@
 
 <div id="impress" data-transition-duration="500">
 
-<div id="title" class="title step" data-x="0" data-y="0" data-scale="1">
-  <p class="try">ESNext quickstart</p>
+  <div id="title" class="title step" data-x="0" data-y="0" data-scale="1">
+    <p class="try">Brave new World</p>
 
-  <p>Bring compilation and code validation to your front-end development process</p>
+    <p>ESNext edition</p>
+    <p>Bring compilation and code validation to your front-end development process</p>
 
-  <div class="footnote">
-    <p>Sydney, 23rd May 2015</p>
+    <div class="footnote">
+      <p>Sydney, 23rd May 2015</p>
 
-    <p>Nik Butenko</p>
-  </div>
-</div>
-
-<div id="demo" class="title step" data-x="0" data-y="1000">
-  <p class="try" style="text-align: center; width: 100%;">&gt; SHOWTIME &lt;</p>
-
-  <p style="text-align: center;">
-    <a href="https://nkbt.github.io/esnext-quickstart" target="_blank">show</a>
-    |
-    <a href="https://github.com/nkbt/esnext-quickstart" target="_blank">code</a>
-  </p>
-</div>
-
-<div id="thanks" class="title step" data-x="0" data-y="10000" data-rotate-x="90"
-  data-rotate-y="90" data-scale="3">
-
-  <h2>Thanks!</h2>
-
-  <br/>
-  <div style="text-align: center;">
-    <img src="qr.png" style="width: 80%;" alt=""/>
+      <p>Nik Butenko</p>
+    </div>
   </div>
 
-  <p>
-    <a href="https://github.com/nkbt/esnext-quickstart" target="_blank" style="white-space: nowrap">
-      https://github.com/nkbt/esnext-quickstart
-    </a>
-  </p>
-  <img src="nyantocat.gif" style="position: absolute; right: 50px; bottom: 50px; width: 100px; border-radius: 50px;" alt=""/>
-</div>
+
+  <div id="good" class="title step" data-x="0" data-y="1000">
+    <h2>What makes a good and consistent code?</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="1000">
+    <h2>Static code analysis</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="1000">
+    <h2>Code style guide</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="1000">
+    <h2>Code-nazi in your team</h2>
+  </div>
 
 
-<div id="overview" class="step" data-x="2200" data-y="3000" data-scale="10">
-</div>
+  <div id="review" class="title step" data-x="1000" data-y="1000">
+    <h2>Code review</h2>
+  </div>
+  <div class="title step" data-x="1000" data-y="1000">
+    <div style="text-align: center;">
+      <img src="wtf.jpg" style="width: 80%;" alt="" />
+    </div>
+  </div>
+
+
+  <div id="ci" class="title step" data-x="2000" data-y="1000">
+    <h2>CI/CD</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>It is always good. But...</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>Not always easy to setup</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>Requires extra tooling and effort</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>Slows down initial development cycle</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>Thus [almost] always skipped at the start</h2>
+  </div>
+  <div class="title step" data-x="2000" data-y="1000">
+    <h2>And that is OK, because...</h2>
+  </div>
+
+
+  <div id="compiled" class="title step" data-x="0" data-y="2000">
+    <p class="try" style="text-align: center; width: 100%;">Compiled languages</p>
+    <p>Javascript naturally came to be compiled first... At last!</p>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Remember CoffeeScript</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>And why it was not OK?</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Sourcemaps!</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Now you can compile JS and debug it with sourcemaps</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>With any syntax you like</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>JSX</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>ES6. And ES7. Why compiled?</h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <div style="text-align: center;">
+      <img src="es.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Babel JS</h2>
+    <h2><a href="https://babeljs.io/">https://babeljs.io</a></h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Webpack</h2>
+    <h2><a href="https://webpack.github.io/">https://webpack.github.io</a></h2>
+  </div>
+  <div class="title step" data-x="0" data-y="2000">
+    <h2>Hot reloading</h2>
+  </div>
+
+
+  <div id="eslint" class="title step" data-x="1000" data-y="2000">
+    <h2>ESLint</h2>
+  </div>
+  <div class="title step" data-x="1000" data-y="2000">
+    <h2>ESLint React plugin</h2>
+  </div>
+  <div class="title step" data-x="1000" data-y="2000">
+    <h2>Let's bring it to the compilation!</h2>
+  </div>
+
+
+  <div id="react" class="title step" data-x="2000" data-y="2000">
+    <h2>Simple React app</h2>
+  </div>
+  <div class="step" data-x="2000" data-y="2000">
+    <script type="text/plain" data-lang="javascript">
+const React = require('react');
+
+const Header = require('./Header');
+const Content = require('./Content');
+const Footer = require('./Footer');
+
+const App = React.createClass({
+  render() {
+    return (
+      <div>
+        <Header />
+        <Content />
+        <Footer />
+      </div>
+    );
+  }
+});
+
+React.render(<App />,
+  document.querySelector('#app'));
+    </script>
+  </div>
+  <div class="step" data-x="2000" data-y="2000">
+    <script type="text/plain" data-lang="javascript">
+const React = require('react');
+
+const Content = React.createClass({
+  render() {
+    return (
+      <section>
+        <h1>Hello, CampJS!</h1>
+      </section>
+    );
+  }
+});
+
+module.exports = Content;
+    </script>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <h2>npm start</h2>
+    <pre>
+      <code>
+        node --es_staging --harmony_arrow_functions server.js
+      </code>
+    </pre>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="npm-start.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="run-1.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <h2>Let's change some code</h2>
+  </div>
+  <div class="step" data-x="2000" data-y="2000">
+    <script type="text/plain" data-lang="javascript">
+const Content = React.createClass({
+  render() {
+    return (
+      <section>
+        <h1>Hello, CampJS!</h1>
+        <p>It's quite cold out here</p>
+      </section>
+    );
+  }
+});
+    </script>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="run-2.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="run-3.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <h2>What if I make some mistake?</h2>
+  </div>
+  <div class="step" data-x="2000" data-y="2000">
+    <script type="text/plain" data-lang="javascript">
+const Content = React.createClass({
+  render() {
+    return (
+      <section>
+        <h1>Hello, CampJS!</h1>
+        <o>It's quite cold out here</p>
+      </section>
+    );
+  }
+});
+    </script>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="err-1.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="err-2.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <h2>What if I make some code style error?</h2>
+  </div>
+  <div class="step" data-x="2000" data-y="2000">
+    <script type="text/plain" data-lang="javascript">
+const Content = React.createClass({
+
+
+
+  // ^^^ Too many empty lines
+  render() {
+    // ...
+  }
+});
+    </script>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="err-3.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+  <div class="title step" data-x="2000" data-y="2000">
+    <div style="text-align: center;">
+      <img src="err-4.png" style="width: 80%;" alt="" />
+    </div>
+  </div>
+
+  <div id="demo" class="title step" data-x="0" data-y="3000">
+    <p class="try" style="text-align: center; width: 100%;">&gt; SHOWTIME &lt;</p>
+
+    <p style="text-align: center;">
+      <a href="https://nkbt.github.io/esnext-quickstart/public/" target="_blank">show</a>
+      |
+      <a href="https://github.com/nkbt/esnext-quickstart" target="_blank">code</a>
+    </p>
+  </div>
+
+  <div id="thanks" class="title step" data-x="0" data-y="10000" data-rotate-x="90"
+      data-rotate-y="90" data-scale="3">
+
+    <h2>Thanks!</h2>
+
+    <br />
+    <div style="text-align: center;">
+      <img src="qr.png" style="width: 80%;" alt="" />
+    </div>
+
+    <p>
+      <a href="https://github.com/nkbt/esnext-quickstart" target="_blank"
+          style="white-space: nowrap">
+        https://github.com/nkbt/esnext-quickstart
+      </a>
+    </p>
+    <img src="nyantocat.gif"
+        style="position: absolute; right: 50px; bottom: 50px; width: 100px; border-radius: 50px;"
+        alt="" />
+  </div>
+
+
+  <div id="overview" class="step" data-x="2200" data-y="3000" data-scale="10">
+  </div>
 
 </div>
 
@@ -93,11 +342,11 @@
   (function () {
 
     var codes = {},
-      timers = {};
+        timers = {};
 
     function typeText(id, $element, callback) {
       var TIMEOUT = 3,
-        code;
+          code;
       if (!!timers[id]) {
         clearTimeout(timers[id]);
         timers[id] = null;
@@ -119,10 +368,10 @@
         }
         $element.innerHTML = [$element.innerHTML, char].join('');
         timers[id] = setTimeout(
-          typeChar,
-          (char === '\n') ?
-          TIMEOUT * 10 + TIMEOUT * 40 * Math.random() :
-          TIMEOUT + TIMEOUT * 4 * Math.random()
+            typeChar,
+            (char === '\n') ?
+            TIMEOUT * 10 + TIMEOUT * 40 * Math.random() :
+            TIMEOUT + TIMEOUT * 4 * Math.random()
         );
       }
 
@@ -131,7 +380,7 @@
 
     function processScript($script) {
       var $pre,
-        $code;
+          $code;
       $pre = document.createElement('pre');
       $code = document.createElement('code');
       $code.classList.add('hljs');
@@ -146,18 +395,18 @@
 
     document.body.addEventListener("impress:stepenter", function (event) {
       return Array.prototype.slice.apply(event.target.querySelectorAll('script[data-lang]'))
-        .map(processScript)
-        .forEach(function ($code, index) {
-          return typeText([event.target.id, index].join('-'), $code, function () {
-            hljs.highlightBlock($code);
+          .map(processScript)
+          .forEach(function ($code, index) {
+            return typeText([event.target.id, index].join('-'), $code, function () {
+              hljs.highlightBlock($code);
+            });
           });
-        });
     }, false);
 
     Array.prototype.slice.apply(document.querySelectorAll('[id].step')).forEach(function ($element) {
       var $a = document.createElement('a'),
-        $li = document.createElement('li'),
-        $h = $element.querySelector('h2, h3');
+          $li = document.createElement('li'),
+          $h = $element.querySelector('h2, h3');
       $li.appendChild($a);
       $a.title = $h && $h.innerHTML || $element.id;
       $a.dataset.id = $element.id;

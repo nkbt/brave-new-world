@@ -230,7 +230,7 @@ a:focus {
     letter-spacing: -1px;
 }
 
-.slide q {
+.step q {
     display: block;
     font-size: 50px;
     line-height: 72px;
@@ -238,35 +238,36 @@ a:focus {
     margin-top: 100px;
 }
 
-.slide q strong {
+.step q strong {
     white-space: nowrap;
 }
-.slide h2 {
+.step h2 {
     display: block;
     font-size: 50px;
     line-height: 72px;
 
     padding-bottom: 40px;
+    text-align: center;
 }
 
-.slide h3 {
+.step h3 {
     display: block;
     font-size: 30px;
     line-height: 40px;
     padding-bottom: 20px;
 }
 
-.slide ul {
+.step ul {
 	list-style: disc;
 	padding-left: 2em;
 	line-height: 1.2em;
 }
-.slide ol {
+.step ol {
 	list-style: decimal;
 	padding-left: 2em;
 	line-height: 1.2em;
 }
-.slide li + li {
+.step li + li {
 	margin-top: 0.7em;
 }
 
@@ -293,7 +294,7 @@ a:focus {
     font-size: 64px;
     position: absolute;
     top: -1.7em;
-    left: 0; 
+    left: 0;
     white-space: nowrap;
 
     -webkit-transform: translateZ(20px);
@@ -368,7 +369,7 @@ a:focus {
 .impress-enabled #impress { pointer-events: auto }
 
 
-.impress-enabled pre { max-height: 80%; overflow-y: auto;}
+.impress-enabled pre { max-height: 80%; overflow-y: auto; font-size: 0.6em;}
 .impress-enabled pre code { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 0.8em; line-height: 1.2em;
 	max-height: 90%; overflow-x: auto; }
 
