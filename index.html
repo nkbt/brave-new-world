@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=1024" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>CampJS - Brave new World</title>
+  <title>Brave new World</title>
 
   <meta name="description"
       content="Brave new World. ESNext edition" />
@@ -40,12 +40,14 @@
     <p class="try">Brave new World</p>
 
     <p>ESNext edition</p>
-    <p>Bring compilation and code validation to your front-end development process</p>
+    <p>Living on the bleeding edge for amazing DX</p>
 
     <div class="footnote">
-      <p>Sydney, 23rd May 2015</p>
-
       <p>Nik Butenko</p>
+      <p>
+        <a target="_blank" href="https://twitter.com/nkbtnk">@nkbtnk</a>,
+        <a target="_blank" href="https://github.com/nkbt">github.com/nkbt</a>
+      </p>
     </div>
   </div>
 
@@ -129,22 +131,26 @@
   </div>
   <div class="title step" data-x="0" data-y="2000">
     <h2>Babel JS</h2>
-    <h2><a href="https://babeljs.io/">https://babeljs.io</a></h2>
+    <h3><a target="_blank" href="https://babeljs.io/">https://babeljs.io</a></h3>
   </div>
   <div class="title step" data-x="0" data-y="2000">
     <h2>Webpack</h2>
-    <h2><a href="https://webpack.github.io/">https://webpack.github.io</a></h2>
+    <h3><a target="_blank" href="https://webpack.github.io/">https://webpack.github.io</a></h3>
   </div>
   <div class="title step" data-x="0" data-y="2000">
     <h2>Hot reloading</h2>
+    <h3><a target="_blank" href="https://gaearon.github.io/react-hot-loader/">http://gaearon.github.io/react-hot-loader</a></h3>
+    <h3><a target="_blank" href="https://www.youtube.com/watch?v=xsSnOQynTHs">Hot Reloading with Time Travel</a></h3>
   </div>
 
 
   <div id="eslint" class="title step" data-x="1000" data-y="2000">
     <h2>ESLint</h2>
+    <h3><a target="_blank" href="http://eslint.org/">http://eslint.org/</a></h3>
   </div>
   <div class="title step" data-x="1000" data-y="2000">
     <h2>ESLint React plugin</h2>
+    <h3><a target="_blank" href="https://github.com/yannickcr/eslint-plugin-react">https://github.com/yannickcr/eslint-plugin-react</a></h3>
   </div>
   <div class="title step" data-x="1000" data-y="2000">
     <h2>Let's bring it to the compilation!</h2>
@@ -186,7 +192,7 @@ const Content = React.createClass({
   render() {
     return (
       <section>
-        <h1>Hello, CampJS!</h1>
+        <h1>Hello, SydJS!</h1>
       </section>
     );
   }
@@ -197,11 +203,6 @@ module.exports = Content;
   </div>
   <div class="title step" data-x="2000" data-y="2000">
     <h2>npm start</h2>
-    <pre>
-      <code>
-        node --es_staging --harmony_arrow_functions server.js
-      </code>
-    </pre>
   </div>
   <div class="title step" data-x="2000" data-y="2000">
     <div style="text-align: center;">
@@ -222,8 +223,8 @@ const Content = React.createClass({
   render() {
     return (
       <section>
-        <h1>Hello, CampJS!</h1>
-        <p>It's quite cold out here</p>
+        <h1>Hello, SydJS!</h1>
+        <p>So many cool ppl around</p>
       </section>
     );
   }
@@ -249,8 +250,8 @@ const Content = React.createClass({
   render() {
     return (
       <section>
-        <h1>Hello, CampJS!</h1>
-        <o>It's quite cold out here</p>
+        <h1>Hello, {name}!</h1>
+        <p>So many cool ppl around</p>
       </section>
     );
   }
@@ -298,9 +299,9 @@ const Content = React.createClass({
     <p class="try" style="text-align: center; width: 100%;">&gt; SHOWTIME &lt;</p>
 
     <p style="text-align: center;">
-      <a href="https://nkbt.github.io/esnext-quickstart/public/" target="_blank">show</a>
+      <a target="_blank" href="https://nkbt.github.io/esnext-quickstart/public/">show</a>
       |
-      <a href="https://github.com/nkbt/esnext-quickstart" target="_blank">code</a>
+      <a target="_blank" href="https://github.com/nkbt/esnext-quickstart">code</a>
     </p>
   </div>
 
@@ -315,7 +316,7 @@ const Content = React.createClass({
     </div>
 
     <p>
-      <a href="https://github.com/nkbt/esnext-quickstart" target="_blank"
+      <a target="_blank" href="https://github.com/nkbt/esnext-quickstart"
           style="white-space: nowrap">
         https://github.com/nkbt/esnext-quickstart
       </a>
@@ -345,7 +346,7 @@ const Content = React.createClass({
         timers = {};
 
     function typeText(id, $element, callback) {
-      var TIMEOUT = 3,
+      var TIMEOUT = 17,
           code;
       if (!!timers[id]) {
         clearTimeout(timers[id]);
@@ -370,8 +371,8 @@ const Content = React.createClass({
         timers[id] = setTimeout(
             typeChar,
             (char === '\n') ?
-            TIMEOUT * 10 + TIMEOUT * 40 * Math.random() :
-            TIMEOUT + TIMEOUT * 4 * Math.random()
+            TIMEOUT * 5 + TIMEOUT * 5 * Math.random() :
+            TIMEOUT + TIMEOUT * Math.random()
         );
       }
 
