@@ -250,10 +250,11 @@ const Content = React.createClass({
   render() {
     return (
       <section>
-        <h1>Hello, {name}!</h1>
+        <h1>Hello, SydJS!</h1>
         <p>So many cool ppl around</p>
       </section>
-    );
+    )
+  // ^ oops, no semicolon
   }
 });
     </script>
@@ -266,32 +267,6 @@ const Content = React.createClass({
   <div class="title step" data-x="2000" data-y="2000">
     <div style="text-align: center;">
       <img src="err-2.png" style="width: 80%;" alt="" />
-    </div>
-  </div>
-  <div class="title step" data-x="2000" data-y="2000">
-    <h2>What if I make some code style error?</h2>
-  </div>
-  <div class="step" data-x="2000" data-y="2000">
-    <script type="text/plain" data-lang="javascript">
-const Content = React.createClass({
-
-
-
-  // ^^^ Too many empty lines
-  render() {
-    // ...
-  }
-});
-    </script>
-  </div>
-  <div class="title step" data-x="2000" data-y="2000">
-    <div style="text-align: center;">
-      <img src="err-3.png" style="width: 80%;" alt="" />
-    </div>
-  </div>
-  <div class="title step" data-x="2000" data-y="2000">
-    <div style="text-align: center;">
-      <img src="err-4.png" style="width: 80%;" alt="" />
     </div>
   </div>
 
@@ -309,10 +284,8 @@ const Content = React.createClass({
       data-rotate-y="90" data-scale="3">
 
     <h2>Thanks!</h2>
-
-    <br />
     <div style="text-align: center;">
-      <img src="qr.png" style="width: 80%;" alt="" />
+      <img src="qr.png" style="width: 60%;" alt="" />
     </div>
 
     <p>
@@ -346,7 +319,7 @@ const Content = React.createClass({
         timers = {};
 
     function typeText(id, $element, callback) {
-      var TIMEOUT = 17,
+      var TIMEOUT = 14,
           code;
       if (!!timers[id]) {
         clearTimeout(timers[id]);
