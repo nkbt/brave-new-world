@@ -20,7 +20,8 @@
   <link rel="shortcut icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-  <link rel="stylesheet" href="css/highlight/tomorrow-night-eighties.css">
+  <link rel="stylesheet" href="css/highlight/agate.css">
+  <!--<link rel="stylesheet" href="css/highlight/github.css">-->
 </head>
 
 <body class="impress-not-supported">
@@ -319,7 +320,7 @@ const Content = React.createClass({
         timers = {};
 
     function typeText(id, $element, callback) {
-      var TIMEOUT = 14,
+      var TIMEOUT = 5,
           code;
       if (!!timers[id]) {
         clearTimeout(timers[id]);
